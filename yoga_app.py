@@ -15,7 +15,7 @@ st.set_page_config(page_title="Yoga Asana Prediction", page_icon=yoga_img, layou
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
-s = f"""<style>div.stButton > button:first-child {{ background-color: #eeeeee; }}<style>"""
+s = f"""<style>div.stButton > button:first-child {{ background-color: #eeeeee; }} .sidebar .sidebar-content {backgroundcolor: "#f55e61";}<style>"""
 
 st.markdown(s, unsafe_allow_html=True)
 
