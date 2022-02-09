@@ -168,23 +168,23 @@ if pred_asana:
     image5 = Image.open('data/test/warrior2/warrior2_002.jpg')
 
     with col1:
-        st.subheader(round(all_preds[0],4))
+        st.subheader(round(all_preds[0] * 100,2))
         st.image(image1, caption='Downdog')
 
     with col2:
-        st.subheader(round(all_preds[1],4))
+        st.subheader(round(all_preds[1] * 100,2))
         st.image(image2, caption='Goddess')
 
     with col3:
-        st.subheader(round(all_preds[2],4))
+        st.subheader(round(all_preds[2] * 100,2))
         st.image(image3, caption='Plank')   
     
     with col4:
-        st.subheader(round(all_preds[3],4))
+        st.subheader(round(all_preds[3] * 100,2))
         st.image(image4, caption='Tree')    
     
     with col5:
-        st.subheader(round(all_preds[4],4))
+        st.subheader(round(all_preds[4] * 100,2))
         st.image(image5, caption='Warrior 2')    
 
 else:
