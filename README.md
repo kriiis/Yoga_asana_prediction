@@ -6,4 +6,4 @@ Until now the model has been trained with images of 5 different yoga asanas: **D
 
 I used a Convolutional Neurtal Network to classify the asanas. So far my model predicts the correct asana from my test images with an **accuracy of 91%**.
 
-You can have  alook at the streamlit web app here:
+[You can have  alook at the streamlit web app here:](https://share.streamlit.io/kriiis/yoga_asana_prediction/main/yoga_app.py)
